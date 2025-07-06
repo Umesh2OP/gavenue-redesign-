@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=General+Sans:wght@600;800&family=Satoshi:wght@400;600&display=swap');
+
+@import "tailwindcss";
+
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.animated-hero-bg {
+  background: linear-gradient(135deg, #f9fafb, #ffffff, #e5e7eb);
+  background-size: 400% 400%;
+  animation: gradientShift 15s ease infinite;
+}
+@keyframes scroll-x {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-100%); }
+}
+.animate-scroll-x {
+  animation: scroll-x 25s linear infinite;
+}
+
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+.animated-hero-bg {
+  background: linear-gradient(135deg, #f9fafb, #ffffff, #e5e7eb);
+  background-size: 400% 400%;
+  animation: gradientShift 15s ease infinite;
+}
+.active-link a {
+  border-color: #4F46E5 !important;
+}
