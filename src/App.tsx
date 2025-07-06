@@ -1,5 +1,5 @@
 // src/App.tsx
-import React from "react";
+
 import Navbar from "./components/Layout/Navbar";
 import Footer from "./components/Layout/Footer";
 import HeroSection from "./components/Sections/Herosection";

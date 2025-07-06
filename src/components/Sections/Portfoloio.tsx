@@ -124,7 +124,7 @@ const Portfolio: React.FC = () => {
           </div>
         ) : (
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
-            {visibleProjects.map((project, index) => (
+            {visibleProjects.map((project, ) => (
               <div
                 key={project.id}
                 data-aos="zoom-in-up"
